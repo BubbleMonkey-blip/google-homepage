@@ -1,0 +1,1 @@
+This project involves deconstructing an existing website and rebuilding it. The goal is to think about how elements get placed and styled on a page.
