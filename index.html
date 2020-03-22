@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           a:link {
+  font-family: arial,sans-serif;
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
+  font-size: 13px;
+  padding-right: 15px;
+}
+
+a:visited{
+   color: #000;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+.header {
+  display:flex;
+  flex-direction:row;
+}
+ .left-header {
+  }
+.right-header {
+  margin-left:auto;
+}
+.sign-in {
+  display:inline-block;
+}
+.button {
+  background: #4285f4;
+  font-weight: bold;
+  color: white;
+  line-height: 28px;
+  padding: 0 12px;
+  border: none;
+}
+#apps-button {
+  height: 14px;
+  width: 14px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 109px;
+}
+form {
+  text-align: center;
+}
+.input-text {
+  width: 360px;
+  height: 40px;
+  border-style: hidden;
+  }
+.search-bar-border {
+  display: flex;
+  border: 1px black solid;
+  border-radius: 10px;
+  width: 450px;
+  margin: auto;
+}
+.magnifying-glass {
+  height: 40px;
+  width: 40px;
+}
+.microphone {
+  height: 40px;
+  width: 40px;
+}
+.buttons {
+  background-color: #F2F2F2;
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  min-width: 54px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  padding: 0px 16px;
+}
+.NKcBbd {
+  display: block;
+  text-align: center;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+.right-footer {
+  margin-left:auto;
+}
+.footer-links {
+padding-left: 10px;
+} 
+        </style>
+    </head>
+    <body>
+<div class="header">
+    <div class="left-header">
+      <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+      <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+    </div>
+    <div class="right-header">
+      <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+      <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+      <a href="https://www.google.com/intl/en/about/products?tab=wh" title="Google apps" aria-expanded="false" role="button" tabindex="0"><img src="https://image.flaticon.com/icons/svg/60/60991.svg" height=14px/></a>
+    <div class="sign-in">
+      <form action="https://google.com">
+        <input class="button" type="submit" value="Sign In">
+        </form>
+        </div>
+        </div>
+    </div>
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    <div class="search-bar-border">
+    <img class="magnifying-glass" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2017%2F01%2F13%2F01%2F22%2Fmagnifying-glass-1976105_960_720.png&f=1&nofb=1" alt="magnifying glass">
+      <form action="Blank">
+    <input class="input-text" type="text">
+          </form>
+          <img class="microphone" src="data:image/png;base64,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">
+    </div>
+    <form action="blank">
+      <input class="buttons" type="submit" value="Google Search">
+      <input class="buttons" type="submit" value="I'm Feeling Lucky">
+    </form>
+    <a class="NKcBbd" href="https://www.google.com/url?q=https://grow.google/remotework/%3Futm_source%3DHPP%26utm_medium%3Downed%26utm_campaign%3DQ1_2020_CV19&amp;source=hpp&amp;id=19016670&amp;ct=3&amp;usg=AFQjCNEq5JyNmqYzZJ9hCgnaUbB_ghxoBg&amp;sa=X&amp;ved=0ahUKEwjAy6-x3JToAhXoi60KHfOqBokQ8IcBCBA" rel="nofollow">Work, teach, and learn from anywhere</a>
+    <div class="footer">
+      <div class="left-footer">
+        <a class="footer-links" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+        <a class="footer-links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+        <a class="footer-links" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
+        </div>
+      <div class="right-footer">
+          <a class="footer-links" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Privacy</a>
+        <a class="footer-links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Terms</a>
+        <a class="footer-links" href="https://google.com/search/howsearchworks/?fg=1">Settings</a>
+      </div>
+    </div>
+</body>
+    </html>
